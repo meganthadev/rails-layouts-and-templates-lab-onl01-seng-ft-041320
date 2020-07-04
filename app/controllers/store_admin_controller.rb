@@ -4,5 +4,12 @@ class StoreAdminController < ApplicationController
   def home
   end
   
+  def orders 
+    layout
+  end 
+  
+  def order_administration 
+  end   
+  
   
 end   
