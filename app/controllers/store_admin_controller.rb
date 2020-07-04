@@ -8,7 +8,8 @@ class StoreAdminController < ApplicationController
     render :layout => "order_administration"
   end 
   
-  def order_administration 
+  def invoice
+    render :layout => false
   end   
   
   
